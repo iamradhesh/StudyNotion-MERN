@@ -141,7 +141,7 @@ const VideoDetails = () => {
         (data) => data._id === subSectionId
     )
 
-    if(currentSubSectionIndex != 0 ) {
+    if(currentSubSectionIndex !== 0 ) {
         //same section , prev video
         const prevSubSectionId = courseSectionData[currentSectionIndex].subSection[currentSubSectionIndex - 1];
         //iss video par chalge jao
