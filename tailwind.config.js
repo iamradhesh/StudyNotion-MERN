@@ -1,5 +1,4 @@
-/**@type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -8,20 +7,10 @@ module.exports = {
       "edu-sa": ["Edu SA Beginner", "cursive"],
       mono: ["Roboto Mono", "monospace"],
     },
-    extends:{
-      boxShadow: {
-        'neon-blue-left-top': '-10px -10px 15px rgba(0, 0, 255, 0.5)',
-        'thick-white-right-bottom': '10px 10px 15px rgba(255, 255, 255, 0.8)',
-        'left-top': '-8px -8px 15px rgba(0, 0, 0, 0.2)',
-        'blue-left-top': '-8px -8px 15px rgba(0, 0, 255, 0.2)'
-      },
-    },
     colors: {
       white: "#fff",
       black: "#000",
       transparent: "#ffffff00",
-      'light-blue': colors.sky,
-        cyan: colors.cyan,
       richblack: {
         5: "#F1F2FF",
         25: "#DBDDEA",
